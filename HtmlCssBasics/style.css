@@ -16,3 +16,10 @@ background-size: cover;
     color: #f6f6f6;
     font-family: fantasy;
 }
+.title {
+    background-color: rgb(240, 252, 255);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
