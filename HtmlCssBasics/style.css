@@ -23,3 +23,11 @@ background-size: cover;
     text-align: center;
     padding: 5px;
 }
+.signature {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(245, 245, 245, 0.301);
+    border-radius: 3px;
+    text-align: right;
+    padding-right: 10px;
+}
