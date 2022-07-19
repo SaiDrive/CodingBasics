@@ -23,7 +23,7 @@ background-size: cover;
     color: black;
     border-radius: 10px;
     text-align: center;
-    padding: 5px;
+    padding-top: 10px;
 }
 .signature {
     font-style: italic;
@@ -35,4 +35,7 @@ background-size: cover;
 }
 .button{
     margin: 10px;
+}
+.list{
+ padding: 10px;  
 }
