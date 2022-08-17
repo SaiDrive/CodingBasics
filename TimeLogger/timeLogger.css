@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Play:wght@400;700&family=Roboto&display=swap');
+.centerCard{
+    background-color: rgba(130, 161, 161, 0.254);
+    width: 60vw;
+    border-radius: 12px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.bgColor{
+    margin: 10px;
+    font-family: 'Roboto';
+}
+
+.flexCard{
+    margin: 10px;
+    padding: 50px;
+}
+button{
+    margin: 5px;
+}
+h3{
+    color: rgba(0, 0, 0, 0.699);
+}
+h1{
+    color: rgba(186, 55, 55, 0.879);
+    font-weight: bold;
+}
