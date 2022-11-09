@@ -21,9 +21,14 @@ const loanAccountSchema = new Schema({
     interestPercenatge: {
         type: Number,
         required: true,
-        frequency: ['Monthly', 'Yearly']
+        minlenght: 1
     },
-    date: {
+    frequency: {
+        type: String,
+        required: true,
+        minlenght: 5
+    },
+    startDate: {
         type: Date,
         required: true
     }

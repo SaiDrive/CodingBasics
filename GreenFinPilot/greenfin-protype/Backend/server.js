@@ -6,7 +6,6 @@ require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-BaseAudioContext
 app.use(cors());
 app.use(express.json());
 
@@ -19,8 +18,11 @@ connection.once('open', () => {
     console.log("Mongoose database connection established successfully");
 })
 
-const loanAccountRouter = require('./routes/LoanAccount');
+const loanAccountRouter = require('./routes/loanAccount');
 const usersRouter = require('./routes/users');
+
+app.use('/LoanAccount', loanAccountRouter);
+app.use('/users', usersRouter);
 
 app.listen(port, () =>{
     console.log(`Server is running on port: ${port}`)
